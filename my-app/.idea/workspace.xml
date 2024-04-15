@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/person/[slug].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/person/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/personForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/person/model/Person.reposityory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/person/model/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/person/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/person/model/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PersonEdit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PersonalFormaScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PersonsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/asyncActions/useAsyncStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/asyncActions/useMutation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/color/getRandonColor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/uniqId/generateRandomId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/person/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/person/types/SEX.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Themed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/two.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/two.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/+not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/+not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EditScreenInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/EditScreenInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExternalLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ExternalLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StyledText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/StyledText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Themed.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/__tests__/StyledText-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/useClientOnlyValue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/client/useClientOnlyValue.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/useClientOnlyValue.web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/client/useClientOnlyValue.web.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/useColorScheme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/useColorScheme.web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/colorSheme/useColorScheme.web.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/constants/Colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2f9JKRpfxp072qp4tjOWwFsZHIp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/my/StasambaFiles/HACKERING/MOB/my/my-app/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "ts.external.directory.path": "C:\\my\\StasambaFiles\\HACKERING\\MOB\\my\\my-app\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app\(tabs)" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app\das" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="" />
+      <created>1713207296246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713207296246</updated>
+      <workItem from="1713207298052" duration="11082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
