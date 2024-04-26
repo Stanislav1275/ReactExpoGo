@@ -84,6 +84,13 @@ export default function TabLayout() {
                 tabBarIcon: ({ color }) => <TabBarIcon name="meetup" color={color} />,
             }}
         />
+        <Tabs.Screen
+            name="currency/index"
+            options={{
+                title: 'Валюты',
+                tabBarIcon: ({ color }) => <TabBarIcon name="check" color={color} />,
+            }}
+        />
 
 
     </Tabs>

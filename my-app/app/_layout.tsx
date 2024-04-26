@@ -9,6 +9,7 @@ import {useColorScheme} from 'react-native';
 import {QueryClientProvider, useQuery} from "react-query";
 import {queryClient} from "../src/shared/lib/query/queryClient";
 import axios from "axios";
+import {ReactQueryDevtools} from "react-query/devtools";
 
 export {
     // Catch any errors thrown by the Layout component.
@@ -57,6 +58,7 @@ function RootLayoutNav() {
                     <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
                     <Stack.Screen name="personForm" options={{headerShown: true}}/>
                     <Stack.Screen name="modal" options={{presentation: 'modal'}}/>
+                    <ReactQueryDevtools initialIsOpen={false} />
                 </Stack>
             </QueryClientProvider>
 

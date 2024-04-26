@@ -4,37 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="finish lab1">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/calc/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/CalcScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/CurrencyScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/query/currencyAxiosInstance/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/query/queryClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/master/CalcV2/CalcV2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/master/CalcV2/model/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/master/Calculator/model/calcReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/master/Calculator/model/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/master/Calculator/ui/Calculator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/CurrencyWidget.tsx" afterDir="false" />
+    <list default="true" id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="finish calc lab2">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/currency/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/currency/model/queries/useCurrenciesQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/currency/model/queries/useLatestCurrencyQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/query/currencyClient/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/styled/hoist.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/styled/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/currency/types/CurrencyResponse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/TabsButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/TabsFlatList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/animations/ButtonPressAnimation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Centered.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Column.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Flex.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Row.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/person/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/person/[slug].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/person/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/person/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/personForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/personForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/two.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/two.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/+not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/+not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/+html.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/+html.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/EditScreenInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/EditScreenInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/PersonEdit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PersonEdit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/PersonalFormaScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PersonalFormaScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/PersonsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PersonsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/ExternalLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/slave/ExternalLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/StyledText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/slave/StyledText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Themed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/slave/Themed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/CurrencyScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CurrencyScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/colorSheme/useColorScheme.web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/colorSheme/useColorScheme.web.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/query/currencyAxiosInstance/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/query/currencyAxiosInstance/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/query/queryClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/query/queryClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/CurrencyWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/CurrencyWidget.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/my/StasambaFiles/HACKERING/MOB/my/my-app/app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\my\\StasambaFiles\\HACKERING\\MOB\\my\\my-app\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/my/StasambaFiles/HACKERING/MOB/my/my-app/src/shared/ui/slave",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
+    "ts.external.directory.path": "C:\\my\\StasambaFiles\\HACKERING\\MOB\\my\\my-app\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\shared\ui\slave" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\shared\lib\styled" />
       <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app" />
       <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app" />
     </key>
@@ -132,7 +133,7 @@
       <workItem from="1713886698536" duration="18970000" />
       <workItem from="1713950806209" duration="8004000" />
       <workItem from="1714045589404" duration="1032000" />
-      <workItem from="1714142141458" duration="1334000" />
+      <workItem from="1714142141458" duration="17871000" />
     </task>
     <task id="LOCAL-00001" summary="finish lab1">
       <option name="closed" value="true" />
@@ -142,11 +143,24 @@
       <option name="project" value="LOCAL" />
       <updated>1713218670802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish calc lab2">
+      <option name="closed" value="true" />
+      <created>1714143606270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714143606270</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/shared/lib/styled/index.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish lab1" />
+    <MESSAGE value="finish calc lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish calc lab2" />
   </component>
 </project>
