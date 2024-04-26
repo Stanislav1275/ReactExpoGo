@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 
-import { ExternalLink } from 'shared/ui/ExternalLink';
-import { MonoText } from 'shared/ui/StyledText';
-import { Text, View } from 'shared/ui/Themed';
+import { ExternalLink } from '../shared/ui/slave/ExternalLink';
+import { MonoText } from '../shared/ui/slave/StyledText';
+import { Text, View } from '../shared/ui/slave/Themed';
 
 import Colors from 'shared/constants/Colors';
 

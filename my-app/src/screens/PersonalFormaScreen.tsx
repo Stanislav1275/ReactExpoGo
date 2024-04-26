@@ -1,7 +1,7 @@
 import React, {useId} from 'react';
 import {StyleSheet, Button} from 'react-native';
 import {useForm, Controller, SubmitErrorHandler, SubmitHandler} from 'react-hook-form';
-import {View, Text, TextInputFieldWithLabel} from 'shared/ui/Themed';
+import {View, Text, TextInputFieldWithLabel} from '../shared/ui/slave/Themed';
 import {SEX} from "../shared/models/person";
 import {PersonReposityory} from "../entities/person/model";
 import {RadioButton} from 'react-native-paper';

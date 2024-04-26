@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 import {PersonalFormaScreen} from 'screens/PersonalFormaScreen';
-import { Text, View } from 'shared/ui/Themed';
+import { Text, View } from '../../src/shared/ui/slave/Themed';
 
 export default function PersonForm() {
     return (

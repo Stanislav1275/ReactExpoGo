@@ -1,4 +1,4 @@
-import {Text, View} from 'shared/ui/Themed'
+import {Text, View} from '../shared/ui/slave/Themed'
 import {Person, PersonReposityory} from "../entities/person/model";
 import {tw} from "react-native-tailwindcss";
 import {SEX} from "../shared/models/person";

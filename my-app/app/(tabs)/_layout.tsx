@@ -54,13 +54,7 @@ export default function TabLayout() {
         }}
       />
 
-        <Tabs.Screen
-            name="personForm"
-            options={{
-                title: 'personForm',
-                tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-            }}
-        />
+
         <Tabs.Screen
             name="person/index"
             options={{
@@ -72,8 +66,22 @@ export default function TabLayout() {
             name="person/[slug]"
             options={{
                 href:null,
+                title: 'лист персов',
+                tabBarIcon: ({ color }) => <TabBarIcon name="anchor" color={color} />,
+            }}
+        />
+        <Tabs.Screen
+            name="personForm"
+            options={{
                 title: 'создание персонажа',
                 tabBarIcon: ({ color }) => <TabBarIcon name="plus" color={color} />,
+            }}
+        />
+        <Tabs.Screen
+            name="calc/index"
+            options={{
+                title: 'калькулятор',
+                tabBarIcon: ({ color }) => <TabBarIcon name="meetup" color={color} />,
             }}
         />
 

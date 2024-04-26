@@ -5,7 +5,7 @@
 
 import {KeyboardType, Text as DefaultText, TextInput, TextInputProps, View as DefaultView} from 'react-native';
 
-import Colors from '../constants/Colors';
+import Colors from '../../constants/Colors';
 import {useColorScheme} from 'react-native';
 import {Control, Controller, ControllerProps, FieldPath, FieldValue, FieldValues, Path} from "react-hook-form";
 import {CSSProperties} from "react";
@@ -85,7 +85,7 @@ export function TextInputFieldWithLabel<Fields extends FieldValues>(props: TextI
                     </Text>
                     <View style={styles.flexCol}>
                         <TextInput
-                            textContentType={textContentType ?? ''}
+                            textContentType={textContentType ?? 'none'}
                             keyboardType={keyboardType}
                             placeholder={placeholder}
                             defaultValue={defaultValue}

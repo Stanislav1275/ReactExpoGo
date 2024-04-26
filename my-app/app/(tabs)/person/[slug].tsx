@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { Text, View } from '../../../src/shared/ui/Themed';
+import { Text, View } from '../../../src/shared/ui/slave/Themed';
 import {useLocalSearchParams, useRouter} from "expo-router";
 import {Person, PersonReposityory} from "../../../src/entities/person/model";
 import {useEffect, useState} from "react";

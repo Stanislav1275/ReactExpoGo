@@ -1,13 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import {  View } from '../../../src/shared/ui/slave/Themed';
 import {Person, PersonReposityory} from "entities/person/model";
 import {Suspense, useEffect, useState} from "react";
-import {PersonsListScreen} from "screens/PersonsList";
-import LoadingView from "@expo/metro-runtime/src/LoadingView";
-import DevLoadingView from "expo/build/environment/DevLoadingView";
+
 import {useFocusEffect} from "expo-router";
-export default function PersonsList() {
+import CalcScreen from "screens/CalcScreen";
+export default function Calc() {
     const [persons, setPersons] = useState<Person[]>([]);
     useFocusEffect(() => {
         const fetch = async () =>await PersonReposityory.getPersons_SAFE().then(setPersons)
@@ -15,7 +13,7 @@ export default function PersonsList() {
     })
     return (
         <Suspense fallback={'laoding'}>
-            <PersonsListScreen persons={persons} />
+            <CalcScreen />
         </Suspense>
     );
 }

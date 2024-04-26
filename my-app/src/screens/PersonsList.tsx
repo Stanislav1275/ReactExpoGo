@@ -1,5 +1,5 @@
 import {Person} from "entities/person/model";
-import {View, Text, useThemeColor} from "../shared/ui/Themed";
+import {View, Text, useThemeColor} from "../shared/ui/slave/Themed";
 import {tw} from "react-native-tailwindcss";
 import {SEX} from "../shared/models/person";
 import {Suspense} from "react";
