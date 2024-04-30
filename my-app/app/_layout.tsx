@@ -4,10 +4,11 @@ import {useFonts} from 'expo-font';
 import {Stack, Tabs} from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import {useEffect} from 'react';
-
+import {GluestackUIProvider} from "@gluestack-ui/themed-native-base";
+import {config} from "@gluestack-ui/config";
 import {useColorScheme} from 'react-native';
 import {QueryClientProvider, useQuery} from "react-query";
-import {queryClient} from "../src/shared/lib/query/queryClient";
+import {queryClient} from "shared/lib/query/queryClient";
 import axios from "axios";
 import {ReactQueryDevtools} from "react-query/devtools";
 
@@ -52,16 +53,19 @@ function RootLayoutNav() {
     const colorScheme = useColorScheme();
 
     return (
-        <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-            <QueryClientProvider client={queryClient}>
-                <Stack>
-                    <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
-                    <Stack.Screen name="personForm" options={{headerShown: true}}/>
-                    <Stack.Screen name="modal" options={{presentation: 'modal'}}/>
-                    <ReactQueryDevtools initialIsOpen={false} />
-                </Stack>
-            </QueryClientProvider>
+        <GluestackUIProvider config={config}>
+            <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+                <QueryClientProvider client={queryClient}>
+                    <Stack>
+                        <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
+                        <Stack.Screen name="(tabs)/todo" options={{headerShown: false}}/>
+                        <Stack.Screen name="personForm" options={{headerShown: false}}/>
+                        <Stack.Screen name="modal" options={{presentation: 'modal'}}/>
+                        <ReactQueryDevtools initialIsOpen={false}/>
+                    </Stack>
+                </QueryClientProvider>
 
-        </ThemeProvider>
+            </ThemeProvider>
+        </GluestackUIProvider>
     );
 }

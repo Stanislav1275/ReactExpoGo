@@ -91,6 +91,13 @@ export default function TabLayout() {
                 tabBarIcon: ({ color }) => <TabBarIcon name="check" color={color} />,
             }}
         />
+        <Tabs.Screen
+            name="todo/index"
+            options={{
+                title: 'Записки',
+                tabBarIcon: ({ color }) => <TabBarIcon name="link" color={color} />,
+            }}
+        />
 
 
     </Tabs>

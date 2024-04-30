@@ -27,11 +27,10 @@ export const CurrencyWidget = () => {
             }
         }
     );
-    const {control, setValue, watch, handleSubmit, reset, formState: {dirtyFields}, getValues} = methods;
+    const {setValue, watch, handleSubmit, reset} = methods;
     const multyController = useRef<{ base: MultiSelect | null, to: MultiSelect | null }>({base: null, to: null});
     useLayoutEffect(() => {
         reset()
-        console.log(watch('currencyBase'))
     }, [currencies]);
     const {isLoading: isConvertLoading, isError: isConvertError, mutateAsync, isSuccess} = useLatestCurrencyQuery()
     const onConvertSubmit = handleSubmit(async ({currencyTo, currencyBase}) => {

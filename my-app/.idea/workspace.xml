@@ -4,35 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="finish calc lab2">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/currency/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/currency/model/queries/useCurrenciesQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/currency/model/queries/useLatestCurrencyQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/query/currencyClient/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/styled/hoist.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/styled/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/currency/types/CurrencyResponse.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/Select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/TabsButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/TabsFlatList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/animations/ButtonPressAnimation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Centered.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Column.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Flex.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Row.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/Spacer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/slave/layout/index.ts" afterDir="false" />
+    <list default="true" id="f5ae7a30-54ee-4d77-a18a-7dc8f0e95806" name="Changes" comment="finish currency">
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/todo/[[...search]].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.handlers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.keys.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.mutations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/master/todos.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/slaves/tag/tags.keys.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/slaves/tag/tags.mutations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/slaves/tag/tags.queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/model/relation/slaves/tag/tags.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/ui/todo-item/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/ui/todo-item/model/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/todo/ui/todo-item/ui/todo-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/manage-todo/model/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/todo-screen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/js/isEmpryObject.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/response/Response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/response/serializiblePromis.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/+html.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/+html.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/CurrencyScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CurrencyScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/colorSheme/useColorScheme.web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/colorSheme/useColorScheme.web.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/query/currencyAxiosInstance/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/query/currencyAxiosInstance/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/query/queryClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/query/queryClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/person/model/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/person/model/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/PersonsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PersonsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/slave/TabsFlatList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/slave/TabsFlatList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/CurrencyWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/CurrencyWidget.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,23 +73,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/my/StasambaFiles/HACKERING/MOB/my/my-app/src/shared/ui/slave",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
-    "ts.external.directory.path": "C:\\my\\StasambaFiles\\HACKERING\\MOB\\my\\my-app\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/my/StasambaFiles/HACKERING/MOB/my/my-app/src/shared/ui/slave&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\my\\StasambaFiles\\HACKERING\\MOB\\my\\my-app\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\shared\ui\slave" />
@@ -93,11 +98,11 @@
       <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\entities\todo\ui\todo-item\ui" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\entities\todo\model\relation\slaves\tag" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\entities\todo\model\relation\master" />
+      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\entities\todo\model\relation\slaves" />
       <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\shared\ui\master" />
-      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\src\shared\ui\slave" />
-      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app\(tabs)" />
-      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app\das" />
-      <recent name="C:\my\StasambaFiles\HACKERING\MOB\my\my-app\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,13 +116,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +131,10 @@
       <workItem from="1713886698536" duration="18970000" />
       <workItem from="1713950806209" duration="8004000" />
       <workItem from="1714045589404" duration="1032000" />
-      <workItem from="1714142141458" duration="17871000" />
+      <workItem from="1714142141458" duration="22210000" />
+      <workItem from="1714394448579" duration="599000" />
+      <workItem from="1714492177402" duration="4408000" />
+      <workItem from="1714502835835" duration="12008000" />
     </task>
     <task id="LOCAL-00001" summary="finish lab1">
       <option name="closed" value="true" />
@@ -151,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714143606270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish currency">
+      <option name="closed" value="true" />
+      <created>1714163037659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714163037659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish lab1" />
     <MESSAGE value="finish calc lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish calc lab2" />
+    <MESSAGE value="finish currency" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish currency" />
   </component>
 </project>

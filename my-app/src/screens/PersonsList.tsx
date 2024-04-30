@@ -14,7 +14,7 @@ export const PersonsListScreen = ({persons}: { persons: Person[] }) => {
     return (<ScrollView style={[tw.flexCol, tw.pX5]}>
             {persons?.map(({uid, age, name, sex, attachment}, index) => {
                 return (
-                    <TouchableOpacity onPress={() =>router.push(`/(tabs)/person/${uid}`)}>
+                    <TouchableOpacity key={uid} onPress={() =>router.push(`/(tabs)/person/${uid}`)}>
                         <View key={uid ?? index} style={[tw.flexRow, tw.minHScreen, styles.container, tw._mB70]}>
                             <View style={[tw.bgBlack, styles.img, tw.mR10, {backgroundColor: attachment??'red'}]}>
 

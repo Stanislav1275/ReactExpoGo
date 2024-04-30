@@ -14,8 +14,7 @@ export const TabsFlatList = (props) => {
         style
     } = props;
 
-    const listRef = React.useRef(null);
-    console.log(options)
+    const listRef = React.useRef<any>(null);
     const handleSelect = (type, index) => {
         onSelect(type);
         listRef.current?.scrollToIndex({
